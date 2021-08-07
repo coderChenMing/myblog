@@ -46,10 +46,10 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace: ''
   wrap: true
-  hljs: false
+  hljs: true
 prismjs:
   enable: false
   preprocess: true
@@ -122,11 +122,11 @@ feed:
   content_limit: 140
   content_limit_delim: ' '
 # 配置站内搜索
-#search:
-  #path: search.xml
-  #field: post
-  #format: html
-  #limit: 10000
+search:
+  path: search.json
+  field: post
+  format: html
+  limit: 10000
 # 阅读全文设置
 # (1)使用npm安装hexo-excerpt
 # npm install hexo-excerpt --save
