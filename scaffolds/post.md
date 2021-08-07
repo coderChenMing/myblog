@@ -1,6 +1,11 @@
 ---
 title: {{ title }}
 date: {{ date }}
-tags:
-copyright:
+tags: 
+categories: 
 ---
+## 
+
+## 
+
+## 
