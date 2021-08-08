@@ -1,6 +1,7 @@
 ---
 title: 安装mysql
 date: 2018-10-07 16:01:28
+updated: 2018-10-07 16:31:28
 tags: mysql
 categories: database
 ---
@@ -252,4 +253,8 @@ categories: database
     ANSI模式：宽松模式，对插入数据进行校验，如果不符合定义类型或长度，对数据类型调整或截断保存，报warning警告。
     TRADITIONAL模式：严格模式，当向mysql数据库插入数据时，进行数据的严格校验，保证错误数据不能插入，报error错误。用于事物时，会进行事物的回滚。
     STRICT_TRANS_TABLES模式：严格模式，进行数据的严格校验，错误数据不能插入，报error错误。   
-   
+## CentOs7 mysql开机启动设置
+    mysql开机启动:
+    /usr/lib/systemd/systemd-sysv-install enable mysql
+    查看开机启动程序:
+    systemctl list-unit-files

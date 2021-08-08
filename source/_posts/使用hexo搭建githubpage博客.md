@@ -1,6 +1,7 @@
 ---
 title: 使用hexo搭建githubpage博客
-date: 2018-06-01 00:19:58
+date: 2018-06-01 19:19:58
+updated: 2018-06-01 20:11:11
 tags: [hexo]
 categories: hexo
 ---
