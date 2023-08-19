@@ -1,9 +1,10 @@
 ---
 title: jdk1.8安装
-date: 2018-04-07 20:52:29
-updated: 2018-04-07 21:36:15
 tags: jdk
 categories: java
+abbrlink: 2554747921
+date: 2018-04-07 20:52:29
+updated: 2018-04-07 21:36:15
 ---
 ## 下载jdk1.8安装包
     wget ftp://192.168.205.11/Third_party/linux/jdk-8u162-linux-x64.rpm

@@ -1,9 +1,10 @@
 ---
 title: linux 防火墙命令
-date: 2018-03-08 23:08:01
-updated: 2018-03-08 23:51:07
 tags: 防火墙
 categories: linux
+abbrlink: 3937382499
+date: 2018-03-08 23:08:01
+updated: 2018-03-08 23:51:07
 ---
 ## CentOs6操作防火墙:
     配置文件:/etc/sysconfig/iptables

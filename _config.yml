@@ -11,15 +11,43 @@ author: CoderChen
 language: zh-CN
 timezone: UTC
 
+# Security
+encrypt: # hexo-blog-encrypt
+  abstract: 该文章被加密了, 请输入密码查看.
+  message: 亲,请输入密码.
+  tags:
+  - {name: redis, password: 123456}
+  - {name: java, password: 654321}
+  wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.
+  wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.
+
+
 # URL 访问地址
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: http://coderChenMing.github.io
-permalink: :year/:month/:day/:title/
+#permalink: :year/:month/:day/:title/
+permalink: posts/:abbrlink.html
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
 
+
+#abbrlink配置
+abbrlink:
+  alg: crc32  # 算法：crc16(default) and crc32
+  rep: dec    # 进制：dec(default) and hex
+  
+  
+# offline config passed to sw-precache.
+service_worker:
+  maximumFileSizeToCacheInBytes: 5242880
+  staticFileGlobs:
+  - public/**/*.{js,html,css,png,jpg,gif,svg,eot,ttf,woff,woff2}
+  stripPrefix: public
+  verbose: true
+  
+  
 # Directory 目录
 source_dir: source
 public_dir: public
@@ -28,7 +56,7 @@ archive_dir: archives #归档
 category_dir: categories #类别
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+skip_render: self/**
 
 # Writing 文章
 new_post_name: :title.md # 	新文章的文件名称
@@ -98,7 +126,8 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 # theme: landscape
-theme: next
+# theme: next
+theme: butterfly
 # theme: fluid
 
 # Deployment

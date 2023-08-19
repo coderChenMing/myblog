@@ -1,9 +1,10 @@
 ---
 title: crond定时任务
+tags: crond
+categories: linux
+abbrlink: 1269898537
 date: 2018-06-07 20:27:36
 updated: 2018-06-07 21:21:18
-tags: crond
-categories: linux 
 ---
 ## crond服务实现定时任务。
     cron也是在/etc/init.d/中注册从而自启的，启动后它会扫描/var/spool/cron 、/etc/cron.d目录和 /etc/anacrontab文件，扫描到的文件中定义了各种定时任务。

@@ -1,9 +1,10 @@
 ---
 title: mongodb 安装与使用入门
-date: 2019-01-03 22:45:50
-updated: 2019-01-03 23:51:01
 tags: mongo
 categories: mongo
+abbrlink: 102656676
+date: 2019-01-03 22:45:50
+updated: 2019-01-03 23:51:01
 ---
 ## 下载安装文件
     wget ftp://192.168.205.11/Third_party/linux/mongodb-linux-x86_64-rhel62-3.4.2.gz

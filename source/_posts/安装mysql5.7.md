@@ -1,9 +1,10 @@
 ---
 title: 安装mysql
-date: 2018-10-07 16:01:28
-updated: 2018-10-07 16:31:28
 tags: mysql
 categories: database
+abbrlink: 2072751892
+date: 2018-10-07 16:01:28
+updated: 2018-10-07 16:31:28
 ---
 ## 下载mysql-5.7安装包
     centos6下载:

@@ -1,9 +1,10 @@
 ---
 title: git 使用
+tags: git
+categories: version_control
+abbrlink: 2261290858
 date: 2019-03-09 20:09:46
 updated: 2019-03-09 21:11:44
-tags: git 
-categories: version_control
 ---
    ## 管理分支
     1、查看分支

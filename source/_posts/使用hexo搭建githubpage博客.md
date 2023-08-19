@@ -1,9 +1,11 @@
 ---
 title: 使用hexo搭建githubpage博客
+tags:
+  - hexo
+categories: hexo
+abbrlink: 975069324
 date: 2018-02-01 19:19:58
 updated: 2018-02-01 20:11:11
-tags: [hexo]
-categories: hexo
 ---
 ## 为什么要搞博客？
        互联网技术日新月异，如何快速又高效的提高我们的技术水平是每一个程序员都要面临的问题，像我，一天工作8-10小时，

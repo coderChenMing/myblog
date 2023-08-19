@@ -1,9 +1,10 @@
 ---
 title: crond定时任务二
-date: 2018-07-12 22:37:22
-updated: 2018-07-12 23:07:55
 tags: crontab
 categories: linux
+abbrlink: 3742939765
+date: 2018-07-12 22:37:22
+updated: 2018-07-12 23:07:55
 ---
 ## CentOS安装crontab:
     yum install crontabs

@@ -1,9 +1,15 @@
 ---
 title: redis技术栈(一)
-date: 2020-12-16 18:40:11
-updated: 2020-12-16 18:40:11
 tags: redis
 categories: 缓存
+abbrlink: 3993418584
+date: 2020-12-16 18:40:11
+password: 123456
+abstract: 该文章被加密了, 请输入密码查看.
+message: 亲,请输入密码.
+wrong_pass_message: 密码错误,请重试.
+wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.
+updated: 2020-12-16 18:40:11
 ---
 ## 认识redis
     Redis 是一种开源（BSD 许可）、内存中数据结构存储，用作数据库、缓存和消息代理。 

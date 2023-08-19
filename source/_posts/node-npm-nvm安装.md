@@ -1,9 +1,10 @@
 ---
 title: node&&npm&&nvm安装
-date: 2020-08-07 23:21:06
-updated: 2020-08-07 23:51:01
 tags: 前端
 categories: nodejs
+abbrlink: 1100949762
+date: 2020-08-07 23:21:06
+updated: 2020-08-07 23:51:01
 ---
 ## vue概念
     MVVM:将业务逻辑代码与视图代码完全分离，各司其职，方便维护，降低维护成本
